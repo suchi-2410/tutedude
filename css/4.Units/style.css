@@ -1,0 +1,21 @@
+main{
+    border: 2px solid black;
+    /* border-radius: 5%; */
+    width: 50%;
+    /* width: 50vw; */
+}
+section{
+    border: 4px dotted brown;
+    width: 70vw;
+    font-size: 30px;
+}
+body{
+    font-size: 2em;
+}
+header{
+    font-size: 2em;
+}
+h1{
+    /* font-size: 40px; */
+    font-size: 4rem;
+}
