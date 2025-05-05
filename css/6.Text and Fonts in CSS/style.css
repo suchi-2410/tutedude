@@ -1,0 +1,22 @@
+h1{
+    
+    color: cadetblue;
+    background-color: antiquewhite;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    text-decoration-style: wavy;
+    font-family: "Caveat", cursive;;
+}
+p{
+    text-align: justify;
+    text-indent: 100px;
+    line-height: 1.2rem;
+    word-spacing: 10px;
+}
+#p2{
+    /* text-shadow: 3px 3px 5px burlywood; */
+    text-shadow: 3px 3px  burlywood;
+    color: transparent;
+
+}
+/* In The Above Text - shadow property the 3px is used for horizontal shadow , the next 3px is used for vertical shadow and the 5px is used for blurness */
