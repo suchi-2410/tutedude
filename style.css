@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    position: relative;
+}
