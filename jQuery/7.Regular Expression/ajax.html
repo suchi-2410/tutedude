@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <script>
+        var str = "This is Regular Regular Regular Expression";
+        // var regex = /regular/i;  //This ignores the case
+        var regex = /Regular/g;     //This tells how many occurence does the word  Regular has and the g stands for global flag
+        var result = str.match(regex);
+        alert(result);
+    </script>
+</body>
+</html>

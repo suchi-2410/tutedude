@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <style>
+        #para{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur, dolorem cumque, molestiae error amet qui quo fugiat nobis eum deleniti, ipsa quisquam laborum voluptate temporibus. Accusamus ea eaque, quis porro nisi sint repellat asperiores voluptate neque, nostrum excepturi recusandae?</p>
+    <button>Fade Content</button>
+    <script>
+        // $("button").click(function(){
+        //     $("p").fadeOut(function(){
+        //         alert("Content Has FadedOut");
+        //     });
+        // });
+        // $(document).ready(function(){
+        //     $("p").fadeOut();
+        //     $("button").click(function(){
+        //         $("p").fadeIn();
+        //     });
+        // });
+        $("button").click(function(){
+            $("p").fadeIn();
+        })
+    </script>
+</body>
+</html>

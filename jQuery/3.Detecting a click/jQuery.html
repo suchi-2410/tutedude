@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <style>
+        #circle{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        #squre{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+    <div id="squre"></div>
+    <div id="squre"></div>
+    <script>
+    //    $("#circle").hover(function(){
+    //     alert("Circle is Clicked");
+    //    });
+    //    $("#squre").click(function(){
+    //     alert("Squre is Clicked");
+    //    });
+    $("div").click(function(){
+        alert("Div is Clicked");
+    });
+    </script>
+</body>
+</html>
