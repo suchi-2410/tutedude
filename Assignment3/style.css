@@ -1,0 +1,43 @@
+body{
+    font-family: cursive;
+    font-size: 130%;
+}
+#main{
+    width: 550px;
+    margin: 0 auto;
+}
+label{
+    width: 200px;
+    float: left;
+    top: 12px;
+    position: relative;
+}
+input{
+    padding: 3px 3px 10px 3px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#submitbutton{
+    font-size: 90%;
+    margin-left: 200px;
+    width: 58%;
+}
+#error{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    display: none;
+
+}
+#success{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    display: none;
+}
+#eye , #eye1{
+    cursor: pointer;
+    position: absolute;
+}
