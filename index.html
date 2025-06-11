@@ -57,11 +57,12 @@
             }
             return true;
         }
-        $("#phoneno").on('input',function(e){
-            var numberRegex = /^[0-9]+$/;
-            if(!numberRegex.test($("#phoneno").val())){
-                $(this).val($("#phoneno").val().replace(/[^0-9]/g, ''));
+        $("#phoneno").on('input', function () {
+            var value = $(this).val().replace(/[^0-9]/g, ''); 
+            if (value.length > 10) {
+                value = value.slice(0, 10);
             }
+            $(this).val(value);
         });
         $("#eye").click(function(){
             var input = $("#password");
